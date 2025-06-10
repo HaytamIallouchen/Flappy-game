@@ -1,0 +1,700 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Arial-BoldMT;\f1\froman\fcharset0 Times-Roman;\f2\froman\fcharset0 Times-Bold;
+\f3\froman\fcharset0 Times-Italic;\f4\fnil\fcharset0 HelveticaNeue-Bold;\f5\fnil\fcharset0 AppleColorEmoji;
+}
+{\colortbl;\red255\green255\blue255;\red11\green83\blue148;\red166\green77\blue121;\red56\green118\blue29;
+\red74\green134\blue232;\red106\green168\blue79;\red183\green183\blue183;\red255\green255\blue255;\red18\green19\blue20;
+\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c4314\c32549\c58039;\csgenericrgb\c65098\c30196\c47451;\csgenericrgb\c21961\c46275\c11373;
+\csgenericrgb\c29020\c52549\c90980;\csgenericrgb\c41569\c65882\c30980;\csgenericrgb\c71765\c71765\c71765;\cssrgb\c100000\c100000\c100000;\cssrgb\c9020\c9804\c10196;
+\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+{\info
+{\author bob@bit-academy.nl}}\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh17440\viewkind0
+\deftab720
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf0 EXAMEN KEUZEDEEL\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs48 \cf2 BASIS PROGRAMMEREN VAN GAMES\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs28 \cf2 K0788
+\f1\b0\fs24 \cf0 \
+\
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\b\fs36 \cf0 BIJLAGE 1 VOOR DE KANDIDAAT\uc0\u8232 \cf3 GAME DESIGN DOCUMENT\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\b\fs16 \cf0 Dit examen is ontwikkeld door Bob van den Berge, coach bij de Bit Academy, en Joey Schmitz, docent Software Development bij ROC van Flevoland. Onze dank gaat uit naar Lincy Ellermeijer, game developer en docent Game Development bij de HvA, voor haar hulp bij het ontwikkelen van het theoretische deel van de lesstof.
+\f1\b0\fs24 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\b \cf4 GAME DESIGN DOCUMENT\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 \
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b\fs36 \cf5 Project Concept\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\fs24 \cf6 1\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 Player Control\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 You control a \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Person
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 in this  \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 First person view\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0 \cf0 game
+\fs24 \
+\
+\
+\
+
+\fs22 where\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 AWSD \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 makes the player\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Move\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 And where\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Mouse \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 makes the player\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Look around\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 And where\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Mouse left click \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 makes the player\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Shoot\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b \cf6 2\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 Basic \
+Gameplay\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 During the game, \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Zombies\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0 \cf0 appear
+\fs24 \
+\
+
+\fs22 from \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 The ground around trees\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 and the goal of the game is to \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Survive the night\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b \cf6 3\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 Sound \
+& Effects\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 There will be sound effects \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Zombie growl\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 There will be sound effects \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Getting hurt by zombie \'93Oof\'94\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 and particle effects\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Fire from shooting\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b \cf6 4\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 Gameplay\
+Mechanics\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 As the game progresses, \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 The time duration of the night will be counted down\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 making it\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Killing all the zombies and ending the game\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 There will also be\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 A counter for the amount of zombies killed.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 making it\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Show the number of kills big when the game ends\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b \cf6 5\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 User\
+Interface\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 The \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 score\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 will \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 increase\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 whenever\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Zombie is killed by the player\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 The \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 lives\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 will \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 decrease\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 whenever\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Each second a zombie is in range of the player\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 The \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 Timer\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 will \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 decrease\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 whenever\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 A second passes\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 At the start of the game, the title\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 \'93Survive the night\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0 \cf0 will appear
+\fs24 \
+\
+
+\fs22 and the game will end when\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i \cf7 The night surpasses\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b \cf6 6\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\fs22 \cf0 Other Features\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf7 Unity packages: \
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f4\i0\b\fs44 \cf8 \cb9 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec8 Realistic Tree Pack Vol.1\
+Yughues Free Ground Materials\
+Free Gun Packs\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\b0\fs22 \cf7 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b\fs36 \cf5 Project Timeline\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\fs24 \cf6 Milestone\
+Description\
+Due \
+\pard\pardeftab720\pardirnatural\qr\partightenfactor0
+
+\fs22 \cf0 #1\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\li720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf7 	\'95	
+\f1\i0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Project Start & spel terrein in unity
+\f3\i\fs22 \cf7 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf0 2025/04/9 Wednesday\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\qr\partightenfactor0
+
+\f2\b\fs22 \cf0 #2\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\li720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf7 	\'95	
+\f1\i0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Basis Spelercontrole & Initi\'eble Schietmechaniek
+\f3\i\fs22 \cf7 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf0 2025/04/10 Thursday\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\qr\partightenfactor0
+
+\f2\b\fs22 \cf0 #3\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\li720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf7 	\'95	
+\f1\i0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Verfijning Schietmechaniek & Basis Zombie AI
+\f3\i\fs22 \cf7 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf0 2025/04/11 Friday\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\qr\partightenfactor0
+
+\f2\b\fs22 \cf0 #4\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\li720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf7 	\'95	
+\f1\i0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Game Logica, UI & Prototype Integratie
+\f3\i\fs22 \cf7 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf0 2025/04/14 Monday\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\qr\partightenfactor0
+
+\f2\b\fs22 \cf0 #5\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\li720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf7 	\'95	
+\f1\i0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Finalisatie, Iteraties & Documentatie
+\f3\i\fs22 \cf7 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf0 2025/04/15 Tuesday\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\pardirnatural\qr\partightenfactor0
+
+\f2\b\fs22 \cf0 Backlog\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+\pard\pardeftab720\li720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf7 	\'95	
+\f1\i0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Game-development examen
+\f3\i\fs22 \cf7 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f3\i\fs22 \cf0 2025/04/16 Wednesday\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\i0\fs24 \cf0 \
+\pard\pardeftab720\sa321\partightenfactor0
+
+\f2\b\fs48 \cf0 \expnd0\expndtw0\kerning0
+Projectplanning: "Survive the Night"\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 Deze planning vervangt een simpele milestone-lijst door een gedetailleerd stappenplan. Naast de standaard taken (zoals spelerbeweging, zombie-AI en UI) zijn er taken om belangrijke game mechanics te onderzoeken en uit te werken. Dit omvat onder andere:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f2\b \cf0 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Terrain Painting in Unity3D:
+\f1\b0  Onderzoek naar en experimenteren met Unity's Terrain-tools.\
+\ls1\ilvl0
+\f2\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Schietmechaniek:
+\f1\b0  Onderzoek naar hoe het schieten technisch en visueel moet werken. En een keuze of het 
+\f5 \uc0\u55357 \u56619 
+\f1   een instant kill geeft of dat een damage systeem met ammo wordt gebruikt. Dit tweede keus kost natuurlijk meer tijd dus aan de hand van de duur van de 
+\f2\b Terrain Painting.
+\f1\b0 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f2\b\fs36 \cf0 Samenvattende Overzichtstabel (5 Dagen)\
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth520\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth3320\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1300\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\fs24 \cf0 Dag\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 Activiteiten & Focus\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 Max. Uren\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 Opmerkingen\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth520\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth3320\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1300\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 1
+\f1\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Project Start & Terrain Painting Onderzoek\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 8 uur\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Exclusief gericht op terrain painting. Extra ondersteuning kan later worden gevraagd.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth520\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth3320\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1300\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\b \cf0 2
+\f1\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Basis Spelercontrole & Initi\'eble Schietmechaniek\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 8 uur\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Focus op beweging, kijkrichting en eerste schietactie.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth520\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth3320\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1300\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\b \cf0 3
+\f1\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Verfijning Schietmechaniek & Basis Zombie AI\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 8 uur\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Uitwerking schietmechaniek (visueel, geluid, eventueel ammo) + eenvoudige zombie AI.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth520\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth3320\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1300\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\b \cf0 4
+\f1\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Game Logica, UI & Prototype Integratie\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 8 uur\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Timer, win/verlies condities, HUD en samenvoegen van alle features.\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth520\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx2160
+\clvertalc \clshdrawnil \clwWidth3320\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth1300\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx6480
+\clvertalc \clshdrawnil \clwWidth6000\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\b \cf0 5
+\f1\b0 \cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Finalisatie, Iteraties & Documentatie\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 8 uur\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf0 Final testing, optimalisatie en het afwerken van documentatie en presentatie.\cell \lastrow\row
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+\
+\pard\pardeftab720\sa60\pardirnatural\partightenfactor0
+
+\f2\b\fs36 \cf5 Project Sketch\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\b0\fs24 \cf0 \
+}

@@ -1,0 +1,15 @@
+| Functionaliteit                                              | Beschrijving                                                                                                                       | Status   |
+|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|----------|
+| **MUST Have Functionaliteiten**                              |                                                                                                                                    |          |
+| Kan de speler de game starten?                               | Bij het laden van de game ziet de speler een "Tap to Start"-afbeelding waarop geklikt of getikt kan worden om het spel te starten. | Ja       |
+| Kan de speler de game of karakters besturen?                 | De speler kan de vogel omhoog laten vliegen door te klikken of te tikken.                                                          | Ja       |
+| Kan de speler verliezen?                                     | Als de vogel een pijp raakt of uit het beeld valt, verliest de speler en wordt de game herstart.                                   | Ja       |
+| Wordt er een startscherm getoond bij het begin van het spel? | Ja, er verschijnt een duidelijke “Tap to Start”-afbeelding in het midden van het scherm.                                           | Ja       |
+| Kan de speler de game opnieuw starten na verlies?            | Ja, de game start automatisch opnieuw zodra de speler botst of crasht.                                                             | Ja       |
+| **SHOULD Have Functionaliteiten**                            |                                                                                                                                    |          |
+| Wordt de score van de speler bijgehouden?                    | Ja, je ziet linksboven een scoreteller die toeneemt als je pijpen succesvol passeert.                                              | Ja       |
+| Wordt de game moeilijker naarmate de speler langer speelt?   | Nog niet: de snelheid blijft constant, maar dit kan eenvoudig toegevoegd worden.                                                   | Nog niet |
+| **COULD Have Functionaliteiten**                             |                                                                                                                                    |          |
+| Een geluidje bij verliezen.                                  | Geïmplementeerd. was heel makkelijk omdat dit zo toe te voegen is.                                                                 | Nee      |
+| **WOULD Have Functionaliteiten (toekomstige wensen)**        |                                                                                                                                    |          |
+| Is er een mogelijkheid om online leaderboard te zien         | Niet geïmplementeerd.                                                                                                              | Nee      |

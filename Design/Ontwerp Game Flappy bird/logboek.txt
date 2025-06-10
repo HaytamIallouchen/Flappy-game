@@ -1,0 +1,70 @@
+Game Examen Logboek
+Project: Game Examen "Survive the Night" Datum: 16-04-2025
+
+1. Geïmplementeerde Functionaliteiten
+
+        A. Spelerbeweging
+    Beschrijving: De speler kan nu bewegen via de toetsen (bijvoorbeeld WASD).
+
+    Details:
+
+    De invoer wordt geregistreerd zodat de speler in verschillende richtingen kan bewegen.
+
+    Basis logica voor beweging is geïmplementeerd.
+
+    Observaties:
+
+    De speler reageert op de input zoals verwacht.
+
+    Er kunnen in de toekomst verbeteringen worden aangebracht, zoals vloeiendere animaties en overgangseffecten.
+
+        B. Beweegbaar Terrein met Grenzen
+    Beschrijving: De speler beweegt op een terrain dat beperkt is, zodat hij het speelgebied niet kan verlaten.
+
+    Details:
+
+    Een terrein is opgezet in Unity met daarbij colliders die de grenzen markeren.
+
+    Observaties:
+
+    De colliders voorkomen succesvol dat de speler buiten het spelgebied komt.
+
+    Het ontwerp van het terrein kan later visueel verfijnd worden voor een aantrekkelijkere presentatie.
+
+        C. Schietmechaniek
+    Beschrijving: De speler moet kunnen schieten, wat de basisaanval in het spel betreft.
+
+    Details:
+
+    Een schietactie is gekoppeld aan een muisklik.
+
+    Er is een initiële implementatie voor het afvuren van projectielen.
+
+    Observaties:
+
+    De schietactie reageert op de input en registreert een schot.
+
+2. Besluit deze game niet te maken
+
+        A. Reden:
+    De game is te complex voor de tijd die ik heb.
+
+        B. Alternatief:
+    Ik ga een andere game maken die eenvoudiger is en binnen de tijd af te ronden.
+
+3. Volgende Stappen
+
+        A. Flappy bird game clone
+    Beschrijving: Ik ga een eenvoudige game maken die lijkt op Flappy Bird.
+
+    Ik documenteer de voortgang van dit project via een dagelijks dagboek / log.
+
+    4/6 Vandaag ben ik officieel met het project begonnen. Ik heb alle benodigde elementen verzameld, zoals de vogel, achtergrond, pijpen en geluidsbestanden. Ook heb ik de projectomgeving opgezet om klaar te zijn voor ontwikkeling.
+
+    5/6 Ik heb vandaag het beginscherm van de game ontworpen. De achtergrond is geplaatst, de vogel staat klaar in het midden en de pijpen zijn gepositioneerd. De user interface is ook begonnen.
+
+    6/6 Vandaag heb ik de basisfunctionaliteiten van Flappy Bird gebouwd. De vogel vliegt nu omhoog als je tikt of een toets indrukt, en zwaartekracht zorgt dat hij weer daalt. Botsingen met pijpen werken ook.
+
+    9/6 Ik heb vandaag het score-systeem gebouwd die de score op telt als je tussen de pijpen door komt. Ook heb ik geluidsfeedback toegevoegd voor wanneer de speler botst en 'game over' gaat. De game voelt nu veel levendiger aan.
+
+    10/6 Game-development examendag! Alles nog een keer getest en de presentatie voorbereid. Feedback ontvangen van Bilal: "De gameplay is strak, en de visuele en auditieve elementen zijn op punt gezet." Ik ben tevreden en beschouw het project als afgerond.
